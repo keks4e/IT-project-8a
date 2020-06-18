@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Scary dogs</title>
+		<style>
+		.container:before
+		.center{text-align:center!important}
+		.content{max-width:980px;margin:auto}
+		.wide{
+			letter-spacing:12px;
+			font-family:"Segoe UI";
+		}
+		.opacity{opacity:0.25;-webkit-backface-visibility:hidden}
+		.justify{text-align:justify!important}
+		.dropbtn {
+			background-color: #4CAF50;
+			color: white;
+			padding: 16px;
+			font-size: 16px;
+			border: none;
+			cursor: pointer;
+		}
+
+		.dropbtn:hover, .dropbtn:focus {
+			background-color: #3e8e41;
+		}
+
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: top;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			overflow: auto;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+
+		.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+
+		.dropdown a:hover {background-color: #f1f1f1}
+
+		.show {display:block;}
+		</style>
+	
+		
+	</head>
+	
+	<body>			
+		<script>
+			function myFunction() {
+				document.getElementById("myDropdown").classList.toggle("show");
+			}
+
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+			<div>
+				
+				<div class="menu">
+					<button onclick="myFunction()" class="dropbtn">Menu</button>
+						<div id="myDropdown" class="dropdown-content">
+					
+							<a href="sc1.html">Rottweiler</a>
+							<a href="sc2.html">Pit Bull</a>
+						</div>
+				</div>
+				
+				<h1><center>Scary dogs</center></h1>
+				<div>
+					<img src="http://dogfriendlydirectory.com/wp-content/uploads/photo-gallery/evil-mean-looking-dog.jpg" style="width:100%">
+				</div>
+				
+							
+				
+				
+				<div class="container center content" style="max-width:600px">
+					<h2 class="wide">SCARY DOG</h2>
+					<p class="justify">The domestic dog (Canis lupus familiaris or Canis familiaris)[4] is a member of the genus Canis (canines), which forms part of the wolf-like canids,[5] and is the most widely abundant terrestrial carnivore.[6][7][8][9][10] The dog and the extant gray wolf are sister taxa[11][12][13] as modern wolves are not closely related to the wolves that were first domesticated,[12][13] which implies that the direct ancestor of the dog is extinct.[14] The dog was the first species to be domesticated[13][15] and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes.[16]
+
+Their long association with humans has led dogs to be uniquely attuned to human behavior[17] and they are able to thrive on a starch-rich diet that would be inadequate for other canid species.[18] New research seems to show that dogs have mutations to equivalent genetic regions in humans where changes are known to trigger high sociability and somewhat reduced intelligence.[19][20] Dogs vary widely in shape, size and colors.[21] Dogs perform many roles for people, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals and therapeutic roles. This influence on human society has given them the sobriquet "man's best friend.</div>
+			</div>
+		
+	
+		
+	</body>
+</html>
